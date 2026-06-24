@@ -34,11 +34,24 @@ I like building practical tools that make research easier, especially for cell c
 
 ## Featured projects
 
-### Cell Culture Tracker
-A local-first web app for tracking iPSC and NPC culture history, confluence, passages, media changes, planning, and figures.
+### 🔬 Cell Culture Tracker
+A fast, local-first web app for tracking stem-cell cultures (iPSC / NPC) — daily feeding and passaging, confluence history, a passage planner, and simple growth analytics, with optional cloud sync and collaborators. Works fully offline in the browser; data only leaves the device if you choose to sign in.
+**TypeScript · React · Supabase (optional) · Vercel · PWA**
+🔗 Live demo: https://cell-culture-tracker.vercel.app *(signed-out mode shows demo data; source being polished for public release)*
 
-### Research analysis workflows
-Small tools and templates for organizing qPCR, RNA-seq, proteomics, microscopy, and experiment-planning data.
+### 🧰 Job Application Assistant
+An evidence-based assistant that helps tailor resumes and organize a job search from a verified profile of your real experience — no invented credentials, with the human kept in control of submissions.
+**TypeScript · React · Supabase · Edge Functions**
+🔗 Live beta: https://job-application-assistant-opal.vercel.app *(in active development)*
+
+### 📊 Research analysis workflows
+Reusable tooling and templates for organizing and analyzing common lab data — qPCR, RNA-seq, proteomics, imaging/densitometry, and experiment planning. Focused on reproducibility and turning raw exports into clean figures. *(Described generally; specific datasets and results are kept private.)*
+
+### 👁️ Visual-behavior & PLR analysis
+A reproducible pipeline for processing rodent visual-behavior and pupillary-light-reflex (PLR) assays — from raw recordings to per-subject metrics and summary figures. *(General research tooling; unpublished results are not shared here.)*
+
+### 🤖 AI agent tooling
+Personal tooling to run and coordinate multiple AI coding agents across my projects — branch/PR-based workflows, safety guardrails, and lightweight task tracking. *(Internal; sanitized public version pending.)*
 
 ## Outside the lab
 

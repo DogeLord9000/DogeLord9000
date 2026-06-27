@@ -1,8 +1,8 @@
 # Hi, I’m Juan 👋
 
-I’m a PhD student in Molecular Cell Biology working on genome editing therapies for Wolfram syndrome, with a focus on WFS1 correction in brain, retina, and islet models.
+I’m a PhD student in Molecular Cell Biology (genome-editing therapies for Wolfram syndrome) **who also builds AI-assisted software, lab tools, and reproducible research workflows**.
 
-I like building practical tools that make research easier, especially for cell culture tracking, experiment planning, data analysis, and lab organization.
+I turn messy, manual work into practical software: web apps for the lab, reproducible analysis pipelines, and a local-first command center for running multiple AI coding agents safely - human-in-the-loop, with one task = one reviewed pull request.
 
 ## What I’m working on
 
@@ -50,8 +50,8 @@ Reusable tooling and templates for organizing and analyzing common lab data — 
 ### 👁️ Visual-behavior & PLR analysis
 A reproducible pipeline for processing rodent visual-behavior and pupillary-light-reflex (PLR) assays — from raw recordings to per-subject metrics and summary figures. *(General research tooling; unpublished results are not shared here.)*
 
-### 🤖 AI agent tooling
-Personal tooling to run and coordinate multiple AI coding agents across my projects — branch/PR-based workflows, safety guardrails, and lightweight task tracking. *(Internal; sanitized public version pending.)*
+### 🤖 Lanes — AI agent command center
+A local-first, human-in-the-loop system for running multiple AI coding agents at once without them stepping on each other: one isolated git worktree per task, a shared memory/priority "vault", and a mandatory review gate that never auto-merges. The speed of many agents with the safety of one careful human. *(Used across my repos; public write-up in progress.)*
 
 ## Outside the lab
 
